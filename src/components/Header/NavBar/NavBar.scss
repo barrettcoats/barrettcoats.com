@@ -1,0 +1,16 @@
+@import "../../../style/colors";
+
+nav > ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+nav > ul > li {
+  margin: 10px;
+}
+
+nav > ul > li > a {
+  color: $accentColor;
+}

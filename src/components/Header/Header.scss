@@ -1,0 +1,14 @@
+@import "../../style/colors";
+
+header {
+  background-color: $secondaryBackgroundColor;
+  padding-left: 36px;
+  padding-right: 36px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+}

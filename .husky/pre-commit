@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+#Colors used in the script
+Red='\033[33;31m';
+ResetColor='\e[0m'
+
+#Check to make sure the command we need is available
+if ! type identify > /dev/null; then
+  echo "${Red}ERROR: Imagemagick's identify command not found."
+  echo "Please install imagemagick to check for EXIF data before committing.${ResetColor}"
+  return 1
+fi
+
+#Check to see if there is any EXIF data in the photos directory
+Photos=$(git rev-parse --show-toplevel)/src/photos/*
+if [ $(identify -format '%[EXIF:*]' ${Photos} | wc -c) -ne 0 ]; then
+    echo "${Red}ERROR: EXIF information detected please remove that before committing."
+    echo "Consider running the following command to scub this data:"
+    echo "  mogrify -strip ${Photos} && \\"
+    echo "  git add ${Photos}${ResetColor}"
+    return 1
+fi
