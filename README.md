@@ -17,12 +17,14 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 Install the latest node:
 
 ```bash
-nvm install latest
+nvm install v20.17.0
 ```
+
+> _Note:_ You can check for newer versions of node with `nvm -ls-remote`
 
 ### Install Gatsby CLI
 
-Install gastsby-cli and disable telementy:
+Install gastsby-cli and disable telemetry:
 
 ```bash
 npm install -g gatsby-cli
@@ -34,7 +36,7 @@ gatsby telemetry --disable
 Use the latest node version:
 
 ```bash
-nvm use latest
+nvm use v20.17.0
 ```
 
 Build and run the site locally:
