@@ -115,7 +115,13 @@ module.exports = {
             options: {
               maxWidth: 800,
             },
-          }
+          },
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+            },
+          },
         ],
       },
     },
