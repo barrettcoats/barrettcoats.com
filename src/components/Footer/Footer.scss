@@ -1,9 +1,12 @@
 @import "../../style/colors";
 
 footer {
+  margin-top: 48px;
+}
+
+.footer-container {
   margin-bottom: auto;
   height: 100%;
-  margin-top: 48px;
   margin-bottom: 96px;
   text-align: center;
   display: flex;
@@ -11,7 +14,7 @@ footer {
   justify-content: space-between;
 }
 
-.footer__section {
+.footer-container__section {
   float: left;
   margin-top: 10px;
   margin-bottom: 10px;
