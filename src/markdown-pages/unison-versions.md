@@ -2,6 +2,8 @@
 slug: /notes/unison-versions
 date: 2023-12-22
 title: Compiling Specific Versions of Unison (File Sync Application)
+description: Learn how to compile specific versions of the Unison file sync application to ensure compatibility across devices. J. Barrett Coats provides a step-by-step guide on handling different versions of Unison and OCaml in varied environments.
+tags: ["Unison", "file sync", "OCaml", "compiling Unison", "cross-platform sync", "version management", "Linux", "FreeBSD"]
 ---
 
 Unison can be very fussy about which version of the application and which

@@ -19,14 +19,25 @@ const Notes = ({
 
   return (
     <Layout>
-      <title>Notes | J. Barrett Coats</title>
       <h1>Notes</h1>
       <ul>{Posts}</ul>
     </Layout>
   );
 };
 
-export default Notes;
+export const Head = () => (
+  <>
+    <title>Notes | J. Barrett Coats</title>
+    <meta
+      name="description"
+      content="Explore J. Barrett Coats' collection of technical notes, offering insights on software development, troubleshooting, and personal projects. Topics include coding solutions, hobbyist electronics, and more."
+    />
+    <meta
+      name="keywords"
+      content="Barrett Coats, J. Barrett Coats, technical notes, software development, coding blog, troubleshooting, Java, JavaScript, C#, ASP.NET, hobbyist electronics, St. Louis developer"
+    />
+  </>
+);
 
 export const pageQuery = graphql`
   query {
@@ -45,3 +56,5 @@ export const pageQuery = graphql`
     }
   }
 `;
+
+export default Notes;

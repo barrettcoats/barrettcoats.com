@@ -32,4 +32,19 @@ const about = () => {
   );
 };
 
+export const Head = () => (
+  <>
+    <title>About | J. Barrett Coats</title>
+    <meta
+      name="description"
+      content="J. Barrett Coats' blog focuses on sharing technical knowledge, covering software development, troubleshooting, and projects of personal interest."
+    />
+
+    <meta
+      name="keywords"
+      content="Barrett Coats, J. Barrett Coats, fullstack developer, Java, JavaScript, C#, ASP.NET, software development, clean code, domain-driven design, hobbyist electronics, digitizing media, St. Louis developer"
+    />
+  </>
+);
+
 export default about;
