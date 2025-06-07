@@ -7,7 +7,7 @@ tags: ["Unison", "file sync", "OCaml", "compiling Unison", "cross-platform sync"
 ---
 
 Unison can be very fussy about which version of the application and which
-version of the ocaml library you are using on both the client and server side.
+version of OCaml you are using on both the client and server side.
 It can sometimes be a real chore to get all of the different devices on the same
 version and working well with each other, especially in a mixed architecture/OS
 environment.
@@ -40,9 +40,9 @@ versions I need to target for all my other installations.
 ## Download Unison Binaries for Common Configurations
 
 Going to [unison's releases page in github](https://github.com/bcpierce00/unison/releases),
-you will need to locate the version of unison (not ocaml) that you need to
+you will need to locate the version of unison (not OCaml) that you need to
 download. Once, you have located the release you need expand the **Assets**
-section and download the specific ocaml version for the OS and architecture you
+section and download the specific OCaml version for the OS and architecture you
 need and install them in to your respective systems.
 
 ## Compile Unison Binaries for Uncommon Configurations
@@ -63,7 +63,7 @@ cd unison
 git checkout v2.51.3
 ```
 
-### Switch to the Correct Version of opam/ocaml
+### Switch to the Correct Version of opam/OCaml
 
 Install opam from your package manager:
 
@@ -88,7 +88,7 @@ sync with the opam environment when they are loaded. Set that
 up? [y/N]
 ```
 
-Switch your opam environment to the correct ocaml version you need by running
+Switch your opam environment to the correct OCaml version you need by running
 the following command (be sure to switch out the version in the example with the
 version you need):
 
