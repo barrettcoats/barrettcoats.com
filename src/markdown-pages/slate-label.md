@@ -2,7 +2,7 @@
 slug: /notes/slate-label
 date: 2025-06-04
 title: Game Boy Advance SP Custom Back Label
-description: Learn how to create an authentic-looking custom back label for a modified Game Boy Advance SP using the Makho "Slate" kit. This guide covers font matching, barcode generation, and design tips for achieving a stock-inspired label for your retro gaming console.
+description: A recreated Game Boy Advance SP serial number back label, with versions tailored for the Makho "Slate" mod. Includes downloadable templates and a breakdown of the design process to help others easily recreate or modify their own labels.
 tags: ["GameBoy Advance", "custom labels", "retro gaming", "console modification", "GameBoy label", "design guide", "handheld modding", "Game Boy Advance SP mods", "Slate GBA SP kit", "DIY GBA SP label"]
 ---
 
