@@ -122,6 +122,18 @@ module.exports = {
               icon: false,
             },
           },
+          {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+              name: `J. Barrett Coats`,
+              short_name: `Barrett Coats`,
+              start_url: `/`,
+              background_color: `#323232`, // $mainBackgroundColor
+              theme_color: `#515151`, // $secondaryBackgroundColor
+              display: `standalone`,
+              icon: `src/icon.png`,
+            }
+          }
         ],
       },
     },
