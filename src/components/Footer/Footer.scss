@@ -1,4 +1,4 @@
-@import "../../style/colors";
+@use "../../style/colors";
 
 footer {
   margin-top: 48px;
@@ -46,7 +46,7 @@ footer {
   // Additional styling for nested elements
   &--quicklinks > ul > li {
     margin-right: 10px;
-    border-right: 1px solid $mainFontColor;
+    border-right: 1px solid colors.$mainFontColor;
     padding-right: 10px;
 
     &:last-child {
@@ -56,7 +56,7 @@ footer {
 
   &--external-icons {
     a {
-      color: $mainFontColor;
+      color: colors.$mainFontColor;
     }
   }
 }

@@ -1,4 +1,4 @@
-@import "../../../style/colors";
+@use "../../../style/colors";
 
 nav > ul {
   list-style: none;
@@ -12,5 +12,5 @@ nav > ul > li {
 }
 
 nav > ul > li > a {
-  color: $accentColor;
+  color: colors.$accentColor;
 }

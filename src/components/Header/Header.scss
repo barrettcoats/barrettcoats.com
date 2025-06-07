@@ -1,7 +1,7 @@
-@import "../../style/colors";
+@use "../../style/colors";
 
 header {
-  background-color: $secondaryBackgroundColor;
+  background-color: colors.$secondaryBackgroundColor;
   padding-left: 36px;
   padding-right: 36px;
   display: flex;

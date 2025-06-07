@@ -1,5 +1,5 @@
-@import "../../style/colors";
-@import "../../style/border";
+@use "../../style/colors";
+@use "../../style/border";
 
 .notes-preview {
   h3,p {
@@ -9,8 +9,8 @@
   }
 
   &__single-note-preview {
-    background-color: $secondaryBackgroundColor;
-    border-radius: $roundedBorderRadius;
+    background-color: colors.$secondaryBackgroundColor;
+    border-radius: border.$roundedBorderRadius;
     margin-top: 1em;
     margin-bottom: 1em;
     padding: .5em;

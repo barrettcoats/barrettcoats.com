@@ -1,10 +1,10 @@
-@import "../style/colors";
-@import "../style/border";
+@use "../style/colors";
+@use "../style/border";
 
 blockquote {
-  background-color: $secondaryBackgroundColor;
-  border-radius: $roundedBorderRadius;
-  border-left: 0.25em solid $linkColor;
+  background-color: colors.$secondaryBackgroundColor;
+  border-radius: border.$roundedBorderRadius;
+  border-left: 0.25em solid colors.$linkColor;
 }
 
 blockquote > p {
@@ -14,18 +14,18 @@ blockquote > p {
 }
 
 .gatsby-highlight-code-line {
-  background-color: $secondaryCodeBackgroundColor;
+  background-color: colors.$secondaryCodeBackgroundColor;
   display: block;
   margin-right: -1em;
   margin-left: -1em;
   padding-right: 1em;
   padding-left: 0.75em;
-  border-left: 0.25em solid $codeLineHighlightColor;
+  border-left: 0.25em solid colors.$codeLineHighlightColor;
 }
 
 .gatsby-highlight {
-  background-color: $codeBackgroundColor;
-  border-radius: $roundedBorderRadius;
+  background-color: colors.$codeBackgroundColor;
+  border-radius: border.$roundedBorderRadius;
   margin: 0.5em 0;
   padding-left: 1em;
   padding-right: 1em;

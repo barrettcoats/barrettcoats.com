@@ -1,6 +1,6 @@
-@import "../../../style/colors";
+@use "../../../style/colors";
 
 .header--logo {
   font-size: 24pt;
-  color: $accentColor;
+  color: colors.$accentColor;
 }
