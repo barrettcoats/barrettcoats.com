@@ -6,9 +6,11 @@ description: A recreated Game Boy Advance SP serial number back label, with vers
 tags: ["GameBoy Advance", "custom labels", "retro gaming", "console modification", "GameBoy label", "design guide", "handheld modding", "Game Boy Advance SP mods", "Slate GBA SP kit", "DIY GBA SP label"]
 ---
 
-## Recreated Back Label
+I recently created a custom back label for the Game Boy Advance SP to complete the look of my modified handheld. I'm sharing it here for anyone interested in downloading it or recreating the label themselves.
 
-Recently, I created a back label for the Game Boy Advance SP to complete the look of my modified handheld console, and I wanted to share it here for anyone else interested in recreating this label.
+<!-- endexcerpt -->
+
+## Recreated Back Label
 
 This is the final AGS-001 design:
 ![Final AGS-001 label](./assets/slate-label/final-AGS-001-label.png)
